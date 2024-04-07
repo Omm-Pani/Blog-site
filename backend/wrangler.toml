@@ -3,8 +3,8 @@ compatibility_date = "2023-12-01"
 
 [vars]
 # MY_VARIABLE = "production_value"
-DATABASE_URL = ""
-JWT_SECRET = ""
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMGVhZTg2NzItNDk4My00NzcwLTg4OGMtZDgzMDcxZWY0YTYzIiwidGVuYW50X2lkIjoiNjU2OTFmZjE5M2Y1ZmZjZWNmYjU5OTNlMWExMzIxZmNlM2NjZTk5MWVjNDkzYzdmM2Q5NmQ4NzZhM2ZkNTEwOSIsImludGVybmFsX3NlY3JldCI6IjM0Yzk3NzczLTA5YzItNGJmNC1iMmFjLTkyY2U1NWRlNjJkMiJ9.pzw0i7TJuA-lJOole0RBq8RKRl6znvVnLQaSdZ0STLU"
+JWT_SECRET = "mySecretKey"
 
 
 

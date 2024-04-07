@@ -1,14 +1,15 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { userRouter } from "./routes/user";
 import { blogRouter } from "./routes/blog";
-import { verify } from "hono/jwt";
+
 // Create the main Hono app
 const app = new Hono<{
   Variables: {
     userId: string;
   };
 }>();
-
+app.use("/*", cors());
 app.route("/api/v1/user", userRouter);
 app.route("/api/v1/blog", blogRouter);
 
